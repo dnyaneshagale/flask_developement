@@ -1,0 +1,20 @@
+# Core dependencies
+flask>=2.0.0
+numpy>=1.21.0
+torch>=1.10.0
+librosa>=0.9.0
+soundfile>=0.10.0
+tqdm>=4.62.0
+resampy>=0.3.0
+
+# Audio processing
+deepfilternet>=0.4.0
+pyannote.audio==3.1.1
+
+# Google Cloud services
+google-cloud-speech>=2.0.0
+google-auth>=2.0.0
+
+# Additional utilities
+protobuf<=3.20.3  # Required for compatibility with some Google Cloud services
+uuid>=1.30.0
