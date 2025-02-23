@@ -1,0 +1,2 @@
+runtime: python310  # Use Python 3.10 (ensure your code supports it)
+entrypoint: gunicorn -b :8080 app:app  # Key fix: "main:app" not "app:main"
